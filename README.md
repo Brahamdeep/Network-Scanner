@@ -40,11 +40,11 @@ This command scans all IP addresses in the 192.168.2.0/24 subnet.
 
 #### Positional Argument:
 
-IP: A single IP address or a range (e.g., 192.168.1.1/24).
+- IP: A single IP address or a range (e.g., 192.168.1.1/24).
 
 #### Optional Argument:
 
--h, --help: Show the help message and exit.
+- -h, --help: Show the help message and exit.
 
 ### TCP Scan
 A TCP scan sends TCP SYN packets to the specified ports, and identifies open ports by receiving SYN+ACK responses. You can specify individual ports or scan a range of ports.
